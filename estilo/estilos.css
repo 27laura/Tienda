@@ -1,0 +1,51 @@
+
+
+header{
+    background-color: black;
+}
+#menu ul{
+    padding: 0;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: fuchsia;
+    padding: 100px;
+    font-size: 33px; 
+   
+}
+#menu li{
+    display: inline;
+   
+}
+
+.page-nav{
+    background-color:black;
+    color: fuchsia;
+    border: 2px solid black;
+    position:relative;
+}
+.page-nav h1{
+    margin: 10px;
+}
+
+
+.nuestros-productos{
+    font-family: 'Courier New', Courier, monospace;
+    color: fuchsia;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(6,3fr);
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
